@@ -15,7 +15,7 @@ import java.util.ArrayList;
 import java.util.Locale;
 import java.util.Random;
 import java.util.logging.Handler;
-
+//Simple quiz app using Random class
 public class quiz extends AppCompatActivity {
     private TextView quesat,tvques;
     private Button op1,op2,op3,op4;
@@ -150,7 +150,7 @@ public class quiz extends AppCompatActivity {
 
     }
 
-    //questions list
+    //questions list....Can add more questions if you want;)
     private void getques(ArrayList<QuizModal> arrlist) {
         arrlist.add(new QuizModal("The academic centre of the Indian Space Research Organisation is set up in which state?","Kerala","Karnataka","Tamil Nadu","Maharashtra","Karnataka"));
         arrlist.add(new QuizModal("Nephron is the basic structural and functional unit of which among the following organs?","Brain","Pancreas","Liver","Kidneys","Kidneys"));

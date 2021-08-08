@@ -8,7 +8,7 @@ public class QuizModal {
     private String op4;
     private String ans;
 
-    public QuizModal(String ques, String op1, String op2, String op3, String op4, String ans) {
+    public QuizModal(String ques, String op1, String op2, String op3, String op4, String ans) {//constructor
         this.ques = ques;
         this.op1 = op1;
         this.op2 = op2;
@@ -16,7 +16,7 @@ public class QuizModal {
         this.op4 = op4;
         this.ans = ans;
     }
-
+//methods to return question,4 options and answer...
     public String getQues() {
         return ques;
     }
