@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/idll"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/lblue"
+    tools:ignore="InvalidId">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thank You for attempting the quiz;)"
+        android:textAllCaps="false"
+        android:textStyle="italic"
+        android:textSize="25dp"
+        android:textColor="#E42024"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:text="You have scored : "
+        android:background="@color/black"
+        android:padding="4dp"
+        android:layout_margin="10dp"
+        android:textAllCaps="false"
+        android:id="@+id/scoretv"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="22dp"
+        android:text="Reset Quiz"
+        android:backgroundTint="#9DF105"
+        android:id="@+id/btnreset"/>
+
+
+</LinearLayout>
