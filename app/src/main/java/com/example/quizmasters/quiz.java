@@ -41,6 +41,7 @@ public class quiz extends AppCompatActivity {
         curpos=random.nextInt(arrlist.size());
         setdatatoviews(curpos);
 
+        //on pressing of each options
         op1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
